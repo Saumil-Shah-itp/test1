@@ -12,7 +12,7 @@ module "ec2_instance" {
   subnet_id              = var.subnet
 
   tags = {
-    Name = "Saumil-test"
+    Name = "Saumil-test2"
     Owner = "saumil.shah@intuitive.cloud"
   }
 }
