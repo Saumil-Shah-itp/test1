@@ -17,5 +17,10 @@ pipeline{
          }
       
       }
+      stage("terraform init"){
+      git branch: 'main', url: 'https://github.com/Saumil-Shah-itp/test1.git'
+      sh "terraform init"
+      sh "terraform plan"   
+      }
    }
 }
