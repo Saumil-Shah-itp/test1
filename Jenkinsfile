@@ -3,7 +3,7 @@ pipeline{
    stages{
        stage("git checks"){
            steps{
-               sh(echo "Hey")
+               sh "echo 'hello world' "
            }
        }
    }
