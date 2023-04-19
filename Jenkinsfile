@@ -12,8 +12,8 @@ pipeline{
          sh "aws configure set aws_access_key_id $AWS_ACCESS_KEY"
          sh "aws configure set aws_secret_access_key $AWS_SECRET_KEY" 
          sh "aws configure set aws_session_token $AWS_SESSION_TOKEN"   
-         sh "aws s3 rm s3://cloudgpt.dns-poc-onprem.tk/index.html"
-         sh "aws s3 cp index.html s3://cloudgpt.dns-poc-onprem.tk/"
+         sh "aws s3 rm s3://cloudgpt4.dns-poc-onprem.tk/index.html"
+         sh "aws s3 cp index.html s3://cloudgpt4.dns-poc-onprem.tk/"
          }
       
       }
