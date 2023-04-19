@@ -3,7 +3,7 @@ pipeline{
    stages{
        stage("git checks"){
            steps{
-               sh "echo 'hello world' "
+               sh "echo 'helLO CLODUGPT' "
            }
        }
       stage("Deply to s3"){
